@@ -19,9 +19,9 @@ function buildQuiz() {
         label.setAttribute('for', inputId);
         label.textContent = `${question}`;
 
-        const inputYes = createRadioButton(inputId, 'yes', 'Yes');
-        const inputNo = createRadioButton(inputId, 'no', 'No');
-        const inputSometimes = createRadioButton(inputId, 'sometimes', 'Sometimes');
+        const inputYes = createRadioButton(inputId, 'yes', 'হ্যা');
+        const inputNo = createRadioButton(inputId, 'no', 'না');
+        const inputSometimes = createRadioButton(inputId, 'sometimes', 'মাঝে মাঝে');
 
         const questionDiv = document.createElement('div');
         questionDiv.classList.add('question');
