@@ -92,11 +92,11 @@ function submitQuiz() {
 
     let resultText;
     if (diseaseProbability === 1) {
-        resultText = "জ্বীন কর্তৃক আক্রান্ত হওয়ার ১০০% সম্ভাবনা রয়েছে। ";
+        resultText = "জ্বীন কর্তৃক আক্রান্ত হওয়ার সম্ভাবনা:100%";
     } else if (diseaseProbability === 0) {
-        resultText = "জ্বীন কর্তৃক আক্রান্ত হওয়ার কোন সম্ভাবনা নেই। ";
+        resultText = "জ্বীন কর্তৃক আক্রান্ত হওয়ার সম্ভাবনা: 0.00%";
     } else {
-        resultText = `জ্বীন কর্তৃক আক্রান্ত হওয়ার সম্ভাবনা: ${(diseaseProbability * 100).toFixed(2)}%`;
+        resultText = `জ্বীন কর্তৃক আক্রান্ত হওয়ার সম্ভাবনা:  ${(diseaseProbability * 100).toFixed(2)}%`;
     }
 
     resultDiv.textContent = resultText;
