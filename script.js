@@ -1,8 +1,11 @@
 const questions = [
-    "Question 1?",
-    "Question 2?",
+    "হঠাৎ করে কি ভালবাসার জিনিস ঘৃণায় পরিনত হয়ছে?",
+    "বেশি বেশি রোগে আক্রান্ত হচ্ছেন কি?",
+    "কাজ করতে কি মন বসছে না?",
+    "একা একা কি থাকতে ইচ্ছে করে?",
+    "শরীরে কোন নীল, হলুদ বা বাদামী দাগ আছে কি?",
     // Add more questions here...
-    "Question 50?"
+    
 ];
 
 const diseaseThreshold = 0.7; // Adjust this threshold as needed
