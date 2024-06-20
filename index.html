@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Transparent Square Buttons</title>
+<style>
+    html, body {
+        height: 100%;
+        font-family: Arial, sans-serif;
+        background-color: #343a40; /* Dark background color */
+        color: #fff; /* Light text color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 80%;
+        max-width: 800px;
+        background-color: #495057; /* Darker background color */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    .button-group {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    button {
+        width: 100px; /* Square button size */
+        height: 100px; /* Square button size */
+        margin: 5px; /* Adjust spacing between buttons */
+        background-color: transparent; /* Transparent background */
+        color: #fff;
+        border: 2px solid #fff; /* White border */
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+    }
+
+    button:hover {
+        background-color: rgba(0, 123, 255, 0.3); /* Semi-transparent blue on hover */
+        border-color: #007bff; /* Blue border on hover */
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Centered Transparent Square Buttons</h1>
+    <div class="button-group">
+        <button>Button 1</button>
+        <button>Button 2</button>
+    </div>
+    <div class="button-group">
+        <button>Button 3</button>
+        <button>Button 4</button>
+    </div>
+</div>
+</body>
+</html>
